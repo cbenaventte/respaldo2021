@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("p").click(function () {
+                $("p").hide("slow");
+            });
+
+            $("#esconder").click(function () {
+                $("img").hide();
+            });
+
+            $("#mostrar").click(function () {
+                $("img").show();
+            });
+            $("#toggle").click(function () {
+                $("img").toggle();
+            });
+            $("#toggle").click(function () {
+                $("img").slideDown();
+            });
+            $("#toggle").click(function () {
+                $("img").slideUp();
+            });
+            $("#fadein").click(function () {
+                $("img").fadeIn("");
+            });
+            $("#fadeout").click(function () {
+                $("img").fadeOut();
+            });
+            
+        });
+    </script>
+</head>
+
+<body>
+    <p>If you double-click on me, I will disappear.</p>
+    <p>Click me away!</p>
+    <p>Click me too!</p>
+
+    <ul>
+        <li id="esconder">Esconde la imagen(.hide)</li>
+        <li id="mostrar">Muestra la imagen(.show)</li>
+        <li id="toggle">Mostar y esconder la imagen(.toggle)</li>
+        <li id="slideArriba">Mostar y esconder la imagen</li>
+        <li id="slideAbajo">Muestra la imagen</li>
+        <li id="fadein">Muestra los elementos coincidentes, atenuándolos a opacos( .fadeIn).
+        </li>
+        <li id="fadeout">Oculta los elementos coincidentes, atenuándolos a transparentes(.fadeOut).
+        </li>
+       
+
+
+    </ul>
+
+    <img src="assets/img/imagen1.jpg" alt="">
+</body>
+
+</html>

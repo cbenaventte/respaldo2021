@@ -1,0 +1,87 @@
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+  
+
+body {
+  background: red;
+  text-align: center;
+  color: #000f08;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+  color: blue;
+}
+
+.verde {
+  color: green;
+}
+.centrado {
+  text-align: center;
+}
+#subtitulo {
+  text-align: right;
+
+  color: white;
+}
+.oscuro {
+  background: #000f08;
+  color: #ffffff;
+}
+.oscuro a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px; 
+}
+.hero-section {
+  text-align: right;
+  background-image: url("../img/bg-hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  text-shadow: 2px 3px 2px #707070;
+  padding: 50px 50px 250px 50px; /* esta es la propiedad que
+    añadimos */
+}
+.charla-texto{
+    display: inline-block;
+}
+.charla-speaker, .charla-texto, .evento {
+    display: inline-block;
+    }
+    .centrado {
+        width: 75%;
+        margin: 0 auto;
+        }
+        .charla-speaker{
+            width: 25%;
+            vertical-align: middle; /* esta es la propiedad que añadimos */
+            }
+            .charla-texto {
+            width: 72.5%;
+            vertical-align: middle;
+            margin-left: 2.5%;
+            }            
+section,
+footer {
+  margin-top: 75px;
+ 
+}
+.sweet-brown {
+  text-align: left;
+  background: #a4452c;
+  color: #ffffff;
+  padding: 50px; /* esta es la propiedad que añadimos */
+}
+footer {
+    padding: 50px;
+}

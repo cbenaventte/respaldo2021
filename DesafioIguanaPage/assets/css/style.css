@@ -1,0 +1,136 @@
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  color: #ffffff;
+}
+h2 {
+  font-family: "Raleway mediun 500", sans-serif;
+  color: #ffffff;
+}
+
+.caja1 {
+  top: 0px;
+  left: 0px;
+  width: 1280px;
+  height: 73px;
+  background-color: rgb(22, 24, 24);
+  margin: auto;
+}
+
+.imgrande {
+  top: 73px;
+  left: 0px;
+  width: 1280px;
+  height: 727px;
+  display: flex;
+  margin: auto;
+}
+
+#contenedor1 {
+  top: 800px;
+  left: 0px;
+  width: 1280px;
+  height: 348px;
+  background-color: #000000;
+}
+
+/*--------TextoIguana---------*/
+.caja3 {
+  top: 800px;
+  left: 0px;
+  width: 1280px;
+  height: 348px;
+  background-color: #000000;
+  margin: auto;
+}
+.texto1 > p {
+  float: left;
+  width: 475px;
+  height: 197px;
+  text-align: left;
+  margin-top: 75px;
+  margin-left: 150px;
+  font-family: "Raleway light 300", sans-serif;
+  color: #ffffff;
+}
+
+.iguana1 {
+  float: right;
+  width: 399px;
+  height: 237px;
+  margin-right: 150px;
+  margin-top: 45px;
+}
+/*-------------------------*/
+
+/*--------ICONOS--------*/
+
+.caja4 {
+  top: 1141px;
+  left: 0px;
+  width: 1280px;
+  height: 348px;
+  background-color: #1e1a13;
+  margin: auto;
+}
+.titulo2 {
+  display: flex;
+}
+.titulo2 > h1 {
+  
+  margin-left: 465px;
+  
+}
+.icono2 {
+  display: flex;
+}
+.icono {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 18%;
+  margin: 0px;
+  margin-left: 140px;
+  margin-top: 100px;
+}
+/*-----------------------*/
+
+/*-fotos iguanas---*/
+.caja5 {
+  top: 1488px;
+  left: 0px;
+  width: 1280px;
+  height: 348px;
+  background-color: #000000;
+  margin: auto;
+  content: "";
+  clear: both;
+  display: table;
+}
+.img-container {
+  float: left;
+  width: 20%;
+  /*padding: 2px;*/
+  margin: 70px;
+}
+/*-------------------*/
+
+/*----Footer-----*/
+footer {
+  width: 1280px;
+  height: 102px;
+  background-color: #1e1a13;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+footer > p {
+  margin: 3rem;
+  font-family: "Raleway light 300", sans-serif;
+  color: #ffffff;
+}
+/*------------------------*/

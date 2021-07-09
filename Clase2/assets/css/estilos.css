@@ -1,0 +1,93 @@
+p {
+    color: #b61132;
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+    background-color: aquamarine;
+    font-weight: 100;
+    font-style: italic;
+    text-align: center; 
+    width: 200px;
+    margin: 10px;
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .verde {
+    color: green;
+    font: normal normal medium 50px/59px Raleway;
+  }
+  .amarillo {
+    color: gold;
+  }
+  #subtitulo {
+    color: salmon;
+  }
+
+  body {
+    background-color: rgb(241, 232, 99);
+    padding: 0;
+    margin: 0;
+  }
+
+  div {
+    color: red;
+  }
+
+  div h2 {
+    color: green;
+  }
+  #caja1, #caja2, #caja3{
+height: 100px;
+width: 100px;
+background-color: blue;
+border-width: 5px;
+ border-style: dotted;
+ border-color: rgb(255, 30, 0);
+
+  }
+  #caja1{
+margin: 20px;
+  }
+  #caja2{
+      margin: 30px;
+}
+#caja3{
+     margin: 40; 
+}
+a{
+    background: #b61132;
+    margin:20px ;
+   color: blue;
+   padding:10px ;
+   
+}
+#navmenu{
+list-style-type: none;
+}
+#navmenu li{
+    display: inline;
+
+}
+#contenedor{
+    background-color: darkgreen;
+    display: inline-block;
+
+}
+#caja4,#caja5, #caja6{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+#caja4{
+   background-color: blueviolet;
+  
+}
+#caja5{
+    background-color: coral;
+   position: relative;
+    top: 20px;
+}
+#caja6{
+    background-color: lawngreen;
+}

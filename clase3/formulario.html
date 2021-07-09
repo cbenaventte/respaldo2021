@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="container">
+        <form action="pagina2.html">
+    <h2>Formulario de Registro</h2>
+    <br />
+    <hr />
+   
+    <!--definiendo una tabla-->
+    <table border="1">
+      <!--definiendo una fila-->
+      <tr>
+        <!--definiendo columnas-->
+        <td>Nombre</td>
+        <!--agregando un txt input-->
+        <td><input type="text" id="nombre" /></td>
+      </tr>
+      <!--agregando una nueva fila-->
+      <tr>
+        <td>rut</td>
+        <td><input type="number" id="rut" /></td>
+      </tr>
+      <tr>
+          <td>Password</td>
+          <td><input type="password" value="password"></td>
+      </tr>
+      <tr>
+        <td>Genero</td>
+        <td>
+          <input type="radio" name="grupo" value="Masculino" />Masculino
+          <input type="radio" name="grupo" value="Femenino" />Femenino
+        </td>
+      </tr>
+
+      <tr>
+        <td>Estado Civil</td>
+        <td>
+          <input type="checkbox" value="soltero" />Soltero
+          <input type="checkbox" value="casado" />Casado
+        </td>
+      </tr>
+      <tr>
+          <td>Profesion</td>
+          <td>
+              <select name="Profesion" id="">
+                <option >Seleccione</option>
+                  <option >Futbolista</option>
+                  <option >medico</option>
+                  <option >Ingeniero</option>
+              </select>
+          </td>
+
+      </tr>
+      <tr>
+          <td></td>
+          <td>
+              <input type="reset" value="limpiar">
+              <input type="submit" value="enviar" class="btn btn-success">
+          </td>
+      </tr>
+    </table>
+</form>
+</div>
+  </body>
+</html>

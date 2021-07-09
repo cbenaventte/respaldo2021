@@ -1,0 +1,57 @@
+body {
+  font-family: "Roboto", sans-serif;
+ 
+}
+
+:root {
+  --dark: #212529;
+  --grey: #707070;
+  --light: #f8f9fa;
+  --white: #ffffff;
+  --success: #28a745;
+}
+
+.fas,
+.location,
+.precioNormal,
+footer {
+  color: var(--grey);
+}
+
+.logo {
+  width: 100px;
+}
+.card-body h5 {
+  color: var(--dark);
+  font-size: 20px;
+}
+.nombreEmpresa {
+  margin-bottom: 0;
+}
+.list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.precioOferta {
+  color: var(--success);
+  font-size: 20px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+}
+.location {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.fas {
+  font-size: 12px;
+  margin: 5px;
+}
+.formulario {
+  color: var(--white);
+}
+.form-control-lg {
+  border-radius: 0.5rem;
+}
